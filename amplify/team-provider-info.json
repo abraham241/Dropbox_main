@@ -1,0 +1,62 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-dropbox2-dev-02850-authRole",
+      "UnauthRoleArn": "arn:aws:iam::536423754453:role/amplify-dropbox2-dev-02850-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::536423754453:role/amplify-dropbox2-dev-02850-authRole",
+      "Region": "us-west-2",
+      "DeploymentBucketName": "amplify-dropbox2-dev-02850-deployment",
+      "UnauthRoleName": "amplify-dropbox2-dev-02850-unauthRole",
+      "StackName": "amplify-dropbox2-dev-02850",
+      "StackId": "arn:aws:cloudformation:us-west-2:536423754453:stack/amplify-dropbox2-dev-02850/3a26be40-1479-11ee-9af9-0aafe585fa93",
+      "AmplifyAppId": "d23guhwq7ww6uy",
+      "APIGatewayAuthURL": "https://s3.amazonaws.com/amplify-dropbox2-dev-02850-deployment/amplify-cfn-templates/api/APIGatewayAuthStack.json"
+    },
+    "categories": {
+      "auth": {
+        "dropbox22d33ce26": {}
+      },
+      "hosting": {
+        "amplifyhosting": {
+          "appId": "d23guhwq7ww6uy",
+          "type": "manual"
+        }
+      }
+    }
+  },
+  "abraham": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-dropbox2-abraham-88c1d-authRole",
+      "UnauthRoleArn": "arn:aws:iam::767397794614:role/amplify-dropbox2-abraham-88c1d-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::767397794614:role/amplify-dropbox2-abraham-88c1d-authRole",
+      "Region": "us-east-2",
+      "DeploymentBucketName": "amplify-dropbox2-abraham-88c1d-deployment",
+      "UnauthRoleName": "amplify-dropbox2-abraham-88c1d-unauthRole",
+      "StackName": "amplify-dropbox2-abraham-88c1d",
+      "StackId": "arn:aws:cloudformation:us-east-2:767397794614:stack/amplify-dropbox2-abraham-88c1d/b48e0d20-1304-11ef-9bb0-069690f90d2d",
+      "AmplifyAppId": "d24cvbnwvciklu"
+    },
+    "categories": {
+      "auth": {
+        "dropbox22d33ce26": {}
+      },
+      "hosting": {
+        "amplifyhosting": {
+          "appId": "d24cvbnwvciklu",
+          "type": "manual"
+        }
+      },
+      "function": {
+        "function": {
+          "variable": "value",
+          "secretsPathAmplifyAppId": "d24cvbnwvciklu",
+          "deploymentBucketName": "amplify-dropbox2-abraham-88c1d-deployment",
+          "s3Key": "amplify-builds/function-64724a4c7979346e5539-build.zip"
+        }
+      },
+      "storage": {
+        "s3ca8a330e": {}
+      }
+    }
+  }
+}
